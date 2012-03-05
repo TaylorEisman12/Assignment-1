@@ -1,4 +1,3 @@
-
 window.addEventListener("DOMContentLoader", function(){
   function $(){
 		var carInfo = document.getElementById(info);
@@ -15,5 +14,6 @@ window.addEventListener("DOMContentLoader", function(){
 				if(radio[i].checked){
 					colorChosen = radio[i].value;
 			}
-		};
+	
+	};
 	
